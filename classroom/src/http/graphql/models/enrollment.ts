@@ -4,17 +4,16 @@ import { Student } from './student';
 
 @ObjectType()
 export class Enrollment {
-  @Field(() => Enrollment)
+  @Field(() => ID)
   id: string;
 
   @Field(() => Student)
   student: Student;
-
   studentId: string;
 
   @Field(() => Course)
   course: Course;
-  courseIf: string;
+  courseId: string;
 
   @Field(() => Date, { nullable: true })
   canceledAt: Date;
