@@ -1,0 +1,27 @@
+{
+  "name": "full-stack-application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "concurrently": "^7.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "web": "cd web && npm run dev",
+    "purchases": "cd purchases && npm run start:dev",
+    "classroom": "cd classroom && npm run start:dev",
+    "start": "concurrently \"npm run web\" \"npm run purchases\" \"npm run classroom\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuelgallo/full-stack-application.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samuelgallo/full-stack-application/issues"
+  },
+  "homepage": "https://github.com/samuelgallo/full-stack-application#readme"
+}
