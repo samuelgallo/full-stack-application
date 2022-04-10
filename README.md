@@ -79,3 +79,5 @@ Open [http://localhost:3333/graphql](http://localhost:3333/graphql) with your br
 Open [http://localhost:3334/graphql](http://localhost:3334/graphql) with your browser to see the GraphQl of Classroom.
 
 Open [http://localhost:3332/graphql](http://localhost:3332/graphql) with your browser to see the integration GraphQl for the Purchases and Classroom.
+
+Open [http://localhost:8080](http://localhost:8080) with your browser to see the UI for Apache Kafka.
