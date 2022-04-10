@@ -1,4 +1,6 @@
 # Full Stack Application
+This project aims to introduce Microservices using the Javascript stack
+
 
 - NestJS
 - GraphQL
