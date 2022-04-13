@@ -1,6 +1,6 @@
 import { getAccessToken } from "@auth0/nextjs-auth0";
 import httpProxyMiddleware from "next-http-proxy-middleware";
-import { NextApiResponse, NextApiRequest } from "next";
+import type { NextApiRequest, NextApiResponse } from "next";
 
 export const config = {
   api: {

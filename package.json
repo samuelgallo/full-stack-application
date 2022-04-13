@@ -12,7 +12,7 @@
     "gateway": "cd gateway && npm run start:dev",
     "purchases": "cd purchases && npm run start:dev",
     "classroom": "cd classroom && npm run start:dev",
-    "start": "concurrently \"npm run purchases\" \"npm run classroom\" \"npm run gateway\" \"npm run web\""
+    "start": "npx concurrently \"npm run purchases\" \"npm run classroom\" \"npm run gateway\" \"npm run web\""
   },
   "repository": {
     "type": "git",
