@@ -6,6 +6,7 @@ This project aims to introduce Microservices using the Javascript stack
 - GraphQL
 - Apache Kafka
 - Next.js
+- Tailwind CSS
 - Apollo Client (GraphQL)
 
 ### Purchases service
