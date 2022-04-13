@@ -28,7 +28,7 @@ const applicants = [
   },
 ];
 
-const dateFormatter = new Intl.DateTimeFormat("pt-BR", {
+const dateFormatter = new Intl.DateTimeFormat("en-US", {
   day: "2-digit",
   month: "long",
   year: "numeric",
